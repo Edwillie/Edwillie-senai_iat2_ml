@@ -13,6 +13,30 @@ Y = dados.target # Os rotulos/alvos - target
 escala = StandardScaler()
 X_escalonado = escala.fit_transform(X)
 
+#Selecionar os dados de treinamento/teste (80%/20%)
+### argumento do metodo train_test_split
+### 1- dados processado / normalizado
+### 2- conjunto alvo
+### test_size => porcentagem de dados de teste
+X_treino, X_teste, Y_treino, Y_teste = train_test_split(X_escalonado, Y, test_size= 0.2)
+
+#Treinamento da MLP (Rede Neural)
+mlp = MLPClassifier(hidden_layer_sizes=(10,10),
+                    max_iter=500,
+                    random_state=42,
+                    verbose=True)
+
+mlp.fit(X_treino, Y_treino)
+
+predicao = mlp.predict(X_teste)
+
+#Apresentando resultados
+print("Matriz de confusao =>")
+print(confusion_matrix(Y_teste, predicao))
+
+
+print("Relatório Classificacao =>")
+print(classification_report(Y_teste, predicao))
 
 
 
