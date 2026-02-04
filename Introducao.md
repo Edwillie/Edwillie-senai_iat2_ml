@@ -1,4 +1,4 @@
-# Machine Learning
+# Machine Learning - Aula 01
 
 ## Objetivos
 - Identificar caracteristicas de sistemas de classificação e regressão
@@ -18,4 +18,8 @@ Onde neste cenário, os dados são distribuidos em 70% para treinamento, 20% par
 
 Obs: Não é fixo ou número mágico.
 
+# Machine Learning - Aula 02
 
+## Objetivos
+- Implementar um classificador usando MLP
+- Implementar uma regressao usando MLP
