@@ -44,4 +44,4 @@ print(classification_report(y_teste, predicoes))
 
 # 8. Salvar o modelo treinado
 salvar.dump(mlp, 'modeloMLP.pkl') 
-salvar.dump(X_escalonado, 'scaler.pkl')
+salvar.dump(scaler, 'scaler.pkl')
