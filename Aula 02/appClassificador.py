@@ -25,6 +25,7 @@ caminhoCSV = filedialog.askopenfilename(title="Selecione o arquivo do paciente",
 
 if caminhoCSV:
     dadosPaciente = pd.read_csv(caminhoCSV)
+    print(dadosPaciente)
 
     if dadosPaciente.shape[1] != 30:
         print("Erro do leiaute de paciente")
