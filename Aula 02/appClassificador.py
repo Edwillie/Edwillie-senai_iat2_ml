@@ -30,13 +30,13 @@ if caminhoCSV:
         print("Erro do leiaute de paciente")
         exit()
 
-    dadosEscalonados = scaler.transform(dadosPaciente)
+    dadosEscalonados = scaler.transform(dadosPaciente.values)
 
     # 3. Predição com base nos dados do paciente
     predicao = modelo.predict(dadosEscalonados)
     probabilidade = modelo.predict_proba(dadosEscalonados).max()
 
-    if predicao[0] == 0:
+    if predicao[0] == 1:
         print("Dados de Paciente Benigno")
     else:
         print("Dados do Paciente Maligno")
