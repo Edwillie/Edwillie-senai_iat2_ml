@@ -40,3 +40,5 @@ if caminhoCSV:
         print("Dados de Paciente Benigno")
     else:
         print("Dados do Paciente Maligno")
+
+    print(f"Probabilidade de {probabilidade * 100:.4f}% acerto")
