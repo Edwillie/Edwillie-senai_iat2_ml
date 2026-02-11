@@ -28,3 +28,16 @@ Obs: Não é fixo ou número mágico.
 # Machine Learning - Aula 03
 
 ## Objetivos
+- Implementar algoritimos supervisionados;
+- Utilizar redes bayesianas para levantar potencial de ocorrencias
+
+Algoritimos Supervisionados
+> Perceptron
+>>>> MLP = Multi Layer Perceptron
+  |------> Classificação
+  |------> Regressao
+
+Conjunto de dados
+> Grande
+> Imenso
+> Gigantesco
