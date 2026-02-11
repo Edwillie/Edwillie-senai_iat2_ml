@@ -23,3 +23,8 @@ Obs: Não é fixo ou número mágico.
 ## Objetivos
 - Implementar um classificador usando MLP
 - Implementar uma regressao usando MLP
+
+
+# Machine Learning - Aula 03
+
+## Objetivos
