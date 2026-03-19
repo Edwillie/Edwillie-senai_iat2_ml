@@ -43,3 +43,7 @@ Conjunto de dados
 > Gigantesco
 
 # Aula 05
+KNN
+
+Observação.... 
+K, sempre é impar!
