@@ -47,3 +47,5 @@ KNN
 
 Observação.... 
 K, sempre é impar!
+
+# Aula 07 / 08
