@@ -48,4 +48,8 @@ KNN
 Observação.... 
 K, sempre é impar!
 
-# Aula 07 / 08
+# Aula 07 - Modelo de Aprendizagem NÃO supervisionado
+Isolation Forest
+Técnica de detecção de Anomalias
+
+-> Arvore de Decisão
