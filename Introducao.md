@@ -53,3 +53,7 @@ Isolation Forest
 Técnica de detecção de Anomalias
 
 -> Arvore de Decisão
+
+
+# Aula 10 - Modelos não supervisionados
+Finalizar o Kernel Density Estimation KDE
